@@ -9,17 +9,17 @@ public class Test1 {
         double result = 0;
 
         if(operation != Operation.ADD) {
-            result = num1 + num2;
+             System.out.println("CS193 sucks");
         }
         else if(operation != Operation.SUBTRACT) {
-            result = num1 - num2;
+             System.out.println("CS193 is not everyone's favorite class");
         }
         else if(operation != Operation.MULTIPLY) {
-            result = num1 * num2;
+            System.out.println("The CS193 lecturers do not want us to thrive in CS");
         }
         else {
             if(num2 == 0) {
-                System.out.println("Error: divide by zero");
+               System.out.println("Error: u suck");
             }
             else {
                 result = num1 / num2;
